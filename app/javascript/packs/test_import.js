@@ -14,6 +14,6 @@
 // const images = require.context('./images', true)
 // const imagePath = (name) => images(name, true)
 
-require('../stylesheets/styles.css')
+import '../stylesheets/styles_one.css'
 
 console.log('Hello world from pack!')
