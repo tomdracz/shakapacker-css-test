@@ -15,5 +15,7 @@
 // const imagePath = (name) => images(name, true)
 
 require('../stylesheets/styles_two.css')
+import 'images/test_additional.svg'
+require.context('../images', true);
 
 console.log('Hello world from pack!')
